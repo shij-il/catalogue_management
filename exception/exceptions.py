@@ -1,20 +1,18 @@
+"""
+Custom exception classes for the Catalogue Management System.
+"""
 class validationerror(Exception):
     """
-    Raised when a validation check fails.
-
-    :param message: Explanation of the validation error
+    Exception raised when an input validation check fails.
     """
-    def __init__(self, message):
+    def __init__(self, message: str):
         
-        super().__init__(f"Validation error : {message}")
+        super().__init__(f"Validation Error: {message}") 
 
 class databaseconnectionerror(Exception):
     """
-    Raised when a database connection attempt fails.
-
-    :param message: Explanation of the database connection error
+    Exception raised when a database connection cannot be established or fails.
     """
-    def __init__(self, message):
-        
-        super().__init__(f"Data connection error : {message}")
+    def __init__(self, message: str):
+        super().__init__(f"Database Connection Error: {message}")
 
