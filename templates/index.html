@@ -1,146 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catalogue Management System</title>
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+  <meta charset="UTF-8">
+  <title>Catalogue Dashboard</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <i class="fas fa-list-alt icon"></i>
-            <h1>Catalogue Management System</h1>
-        </header>
+  <div class="container">
+    <header>
+      <h1>📦 Catalogue Management</h1>
+    </header>
 
-        
-        <nav class="menu">
-            <button class="menu-button" id="create-catalogue-btn"><i class="fas fa-plus"></i> Create Catalogue</button>
-            <button class="menu-button" id="get-catalogue-by-id-btn"><i class="fas fa-search"></i> Get Catalogue by ID</button>
-            <button class="menu-button" id="update-catalogue-by-id-btn"><i class="fas fa-pencil-alt"></i> Update Catalogue by ID</button>
-            <button class="menu-button" id="get-all-catalogues-btn"><i class="fas fa-list"></i> Get All Catalogues</button>
-            <button class="menu-button" id="delete-catalogue-by-id-btn"><i class="fas fa-trash-alt"></i> Delete Catalogue by ID</button>
-            <button class="menu-button" id="exit-btn"><i class="fas fa-times" ></i> Exit</button>
-            
-        </nav>
 
-        
-        <div class="form-section active" id="create-catalogue-form">
-            <h2>Create New Catalogue</h2>
-            <form id="catalogue-form">
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                <div class="form-group">
-                    <label for="description">Description</label>
-                    <input type="text" id="description" name="description" required>
-                </div>
-                <div class="date-group">
-                    <div class="form-group">
-                        <label for="start_date">Start Date</label>
-                        <input type="date" id="start_date" name="start_date" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="end_date">End Date</label>
-                        <input type="date" id="end_date" name="end_date" required>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="status">Status</label>
-                    <select id="status" name="status" required>
-                        <option value="">--Select Status--</option>
-                        <option value="active">Active</option>
-                        <option value="inactive">Inactive</option>
-                        <option value="upcoming">Upcoming</option>
-                        <option value="expired">Expired</option>
-                    </select>
-                </div>
-                <button type="submit" class="save-button">Save</button>
-            </form>
-            <div id="message" class="message"></div>
+    <div class="controls" style="justify-content: space-between; flex-wrap: wrap;">
+      <div style="display: flex; flex-wrap: wrap; gap: 10px; align-items: center;">
+        <input id="search-id" type="number" placeholder="Enter Catalogue ID" aria-label="Search Catalogue ID">
+        <button id="btn-search-id" class="btn btn-secondary">Get Catalogue</button>
+
+        <div class="filters">
+          <button class="btn filter active" data-status="all">All</button>
+          <button class="btn filter" data-status="active">Active</button>
+          <button class="btn filter" data-status="inactive">Inactive</button>
         </div>
 
-        
-        <div class="form-section" id="get-catalogue-by-id-form">
-            <h2>Get Catalogue by ID</h2>
-            <div class="form-group">
-                <label for="get-id">Catalogue ID</label>
-                <input type="number" id="get-id" name="get_id" required>
-            </div>
-            <button class="save-button" id="fetch-by-id-btn">Fetch</button>
-            <div id="get-catalogue-result" class="result-display"></div>
-            <div id="get-id-message" class="message"></div>
-        </div>
+        <button id="btn-show-form" class="btn btn-primary">+ New Catalogue</button>
+      </div>
 
-        
-        <div class="form-section" id="update-catalogue-by-id-form">
-            <h2>Update Catalogue by ID</h2>
-            <div class="form-group">
-                <label for="update-id">Catalogue ID</label>
-                <input type="number" id="update-id" name="update_id" required>
-            </div>
-            <button class="save-button" id="fetch-for-update-btn">Fetch Catalogue</button>
 
-            <form id="update-catalogue-form" style="display: none;">
-                <h3>Catalogue Details</h3>
-                <div class="form-group">
-                    <label for="update-name">Name</label>
-                    <input type="text" id="update-name" name="name" required>
-                </div>
-                <div class="form-group">
-                    <label for="update-description">Description</label>
-                    <input type="text" id="update-description" name="description" required>
-                </div>
-                <div class="date-group">
-                    <div class="form-group">
-                        <label for="update-start_date">Start Date</label>
-                        <input type="date" id="update-start_date" name="start_date" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="update-end_date">End Date</label>
-                        <input type="date" id="update-end_date" name="end_date" required>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="update-status">Status</label>
-                    <select id="update-status" name="status" required>
-                        <option value="">--Select Status--</option>
-                        <option value="active">Active</option>
-                        <option value="inactive">Inactive</option>
-                        <option value="upcoming">Upcoming</option>
-                        <option value="expired">Expired</option>
-                    </select>
-                </div>
-                <button type="submit" class="save-button">Update</button>
-            </form>
-            <div id="update-message" class="message"></div>
-        </div>
-
-       
-        <div class="form-section" id="get-all-catalogues-form">
-            <h2>All Catalogues</h2>
-            <div id="all-catalogues-result" class="result-display"></div>
-            <div id="all-catalogues-message" class="message"></div>
-        </div>
-
-        
-        <div class="form-section" id="delete-catalogue-by-id-form">
-            <h2>Delete Catalogue by ID</h2>
-            <div class="form-group">
-                <label for="delete-id">Catalogue ID</label>
-                <input type="number" id="delete-id" name="delete_id" required>
-            </div>
-            <button class="save-button" id="confirm-delete-btn">Delete</button>
-            <div id="delete-message" class="message"></div>
-        </div>
-
+      <button onclick="window.location.href='/logout'" class="btn btn-secondary">Logout</button>
     </div>
 
-    
-    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+    <form id="catalogue-form" class="hidden" novalidate>
+      <input type="hidden" id="catalogue-id">
+
+      <label>
+        <input type="text" id="name" placeholder="Enter name" required>
+      </label>
+
+      <label>
+        <input type="text" id="description" placeholder="Enter description" required>
+      </label>
+
+      <label>
+        <input type="date" id="start_date" required>
+      </label>
+
+      <label>
+        <input type="date" id="end_date" required>
+      </label>
+
+      <label>
+        <select id="status" required>
+          <option value="">--Select--</option>
+          <option value="active">Active</option>
+          <option value="inactive">Inactive</option>
+        </select>
+      </label>
+
+      <div class="form-buttons">
+        <button type="submit" class="btn btn-success">Save</button>
+        <button type="button" id="btn-cancel" class="btn">Cancel</button>
+      </div>
+
+      <div id="form-msg" class="message"></div>
+    </form>
+
+
+    <div class="table-wrapper">
+      <table id="catalogue-table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+            <th>Status</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+
+    <div class="pagination" id="pagination">
+      <button id="prev-page" class="btn">Prev</button>
+      <span id="page-info"></span>
+      <button id="next-page" class="btn">Next</button>
+    </div>
+
+
+    <div id="global-msg" class="message"></div>
+  </div>
+  <button class="fab" onclick="document.getElementById('btn-show-form').click()">＋</button>
+
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </body>
-</html>
+</html> 
