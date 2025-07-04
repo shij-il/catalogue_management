@@ -1,0 +1,98 @@
+2025-07-03 13:38:33,285 - INFO - Login attempt for user: don_shijil
+2025-07-03 13:38:33,724 - INFO - Database connection established for login.
+2025-07-03 13:38:33,728 - INFO - Login successful for user: don_shijil
+2025-07-03 13:38:34,785 - INFO - User session active. Redirecting to dashboard.
+2025-07-03 13:38:34,942 - INFO - Fetching all catalogues
+2025-07-03 13:38:34,986 - INFO - Fetched 10 catalogues.
+2025-07-03 13:39:06,600 - INFO - Fetching catalogue by ID: 70
+2025-07-03 13:39:06,633 - INFO - Catalogue found: {'catalogue_id': 70, 'catalogue_name': 'winter sale', 'catalogue_description': 'mega offer on winter items', 'start_date': datetime.date(2025, 7, 5), 'end_date': datetime.date(2025, 7, 23), 'status': 'inactive'}
+2025-07-03 13:39:14,232 - INFO - Update request for ID 70: {'name': 'winter thanup', 'description': 'mega offer on winter items', 'start_date': '2025-07-05', 'end_date': '2025-07-23', 'status': 'inactive'}
+2025-07-03 13:39:14,321 - INFO - Catalogue ID 70 updated successfully.
+2025-07-03 13:39:14,332 - INFO - Fetching all catalogues
+2025-07-03 13:39:14,356 - INFO - Fetched 10 catalogues.
+2025-07-04 23:52:46 - INFO - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-04 23:52:46 - INFO - werkzeug - [33mPress CTRL+C to quit[0m
+2025-07-04 23:52:46 - INFO - werkzeug -  * Restarting with stat
+2025-07-04 23:52:47 - WARNING - werkzeug -  * Debugger is active!
+2025-07-04 23:52:47 - INFO - werkzeug -  * Debugger PIN: 211-066-367
+2025-07-04 23:53:08 - INFO - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-04 23:53:08 - INFO - werkzeug - [33mPress CTRL+C to quit[0m
+2025-07-04 23:53:08 - INFO - werkzeug -  * Restarting with stat
+2025-07-04 23:53:09 - WARNING - werkzeug -  * Debugger is active!
+2025-07-04 23:53:09 - INFO - werkzeug -  * Debugger PIN: 211-066-367
+2025-07-04 23:53:17 - INFO - werkzeug - 127.0.0.1 - - [04/Jul/2025 23:53:17] "[32mGET / HTTP/1.1[0m" 302 -
+2025-07-04 23:53:17 - INFO - werkzeug - 127.0.0.1 - - [04/Jul/2025 23:53:17] "GET /login HTTP/1.1" 200 -
+2025-07-04 23:53:18 - INFO - werkzeug - 127.0.0.1 - - [04/Jul/2025 23:53:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-07-04 23:53:18 - INFO - werkzeug - 127.0.0.1 - - [04/Jul/2025 23:53:18] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-07-04 23:53:18 - INFO - werkzeug - 127.0.0.1 - - [04/Jul/2025 23:53:18] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-07-04 23:53:18 - INFO - werkzeug - 127.0.0.1 - - [04/Jul/2025 23:53:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-04 23:58:09 - INFO - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-04 23:58:09 - INFO - werkzeug - [33mPress CTRL+C to quit[0m
+2025-07-04 23:58:09 - INFO - werkzeug -  * Restarting with stat
+2025-07-04 23:58:10 - WARNING - werkzeug -  * Debugger is active!
+2025-07-04 23:58:10 - INFO - werkzeug -  * Debugger PIN: 211-066-367
+2025-07-05 00:01:40 - INFO - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-05 00:01:40 - INFO - werkzeug - [33mPress CTRL+C to quit[0m
+2025-07-05 00:01:40 - INFO - werkzeug -  * Restarting with stat
+2025-07-05 00:01:40 - WARNING - werkzeug -  * Debugger is active!
+2025-07-05 00:01:40 - INFO - werkzeug -  * Debugger PIN: 211-066-367
+2025-07-05 00:01:53 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:01:53] "[32mGET / HTTP/1.1[0m" 302 -
+2025-07-05 00:01:53 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:01:53] "GET /login HTTP/1.1" 200 -
+2025-07-05 00:01:54 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:01:54] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-07-05 00:01:54 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:01:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-07-05 00:01:54 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:01:54] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-07-05 00:02:29,594 - INFO - Login attempt for user: don_shijil
+2025-07-05 00:02:29 - INFO - app - Login attempt for user: don_shijil
+2025-07-05 00:02:29,858 - INFO - Database connection established for login.
+2025-07-05 00:02:29 - INFO - app - Database connection established for login.
+2025-07-05 00:02:29,877 - INFO - Login successful for user: don_shijil
+2025-07-05 00:02:29 - INFO - app - Login successful for user: don_shijil
+2025-07-05 00:02:29 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:02:29] "POST /login HTTP/1.1" 200 -
+2025-07-05 00:02:30,922 - INFO - User session active. Redirecting to dashboard.
+2025-07-05 00:02:30 - INFO - app - User session active. Redirecting to dashboard.
+2025-07-05 00:02:30 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:02:30] "GET / HTTP/1.1" 200 -
+2025-07-05 00:02:31 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:02:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-07-05 00:02:31 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:02:31] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-07-05 00:02:31,079 - INFO - Fetching all catalogues
+2025-07-05 00:02:31 - INFO - app - Fetching all catalogues
+2025-07-05 00:02:31 - INFO - util.db_connection - Database connection established successfully.
+2025-07-05 00:02:31,100 - INFO - Fetched 10 catalogues.
+2025-07-05 00:02:31 - INFO - app - Fetched 10 catalogues.
+2025-07-05 00:02:31 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:02:31] "GET /api/catalogues HTTP/1.1" 200 -
+2025-07-05 00:03:02,579 - INFO - User session active. Redirecting to dashboard.
+2025-07-05 00:03:02 - INFO - app - User session active. Redirecting to dashboard.
+2025-07-05 00:03:02 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:03:02] "GET / HTTP/1.1" 200 -
+2025-07-05 00:03:02 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:03:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-07-05 00:03:02 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:03:02] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-07-05 00:03:02,656 - INFO - Fetching all catalogues
+2025-07-05 00:03:02 - INFO - app - Fetching all catalogues
+2025-07-05 00:03:02 - INFO - util.db_connection - Database connection established successfully.
+2025-07-05 00:03:02,673 - INFO - Fetched 10 catalogues.
+2025-07-05 00:03:02 - INFO - app - Fetched 10 catalogues.
+2025-07-05 00:03:02 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:03:02] "GET /api/catalogues HTTP/1.1" 200 -
+2025-07-05 00:03:21,348 - INFO - Fetching catalogue by ID: 1
+2025-07-05 00:03:21 - INFO - app - Fetching catalogue by ID: 1
+2025-07-05 00:03:21 - INFO - util.db_connection - Database connection established successfully.
+2025-07-05 00:03:21,368 - INFO - Catalogue found: {'catalogue_id': 1, 'catalogue_name': 'winter sa', 'catalogue_description': 'mega offer on winter', 'start_date': datetime.date(2025, 6, 2), 'end_date': datetime.date(2025, 6, 18), 'status': 'inactive'}
+2025-07-05 00:03:21 - INFO - app - Catalogue found: {'catalogue_id': 1, 'catalogue_name': 'winter sa', 'catalogue_description': 'mega offer on winter', 'start_date': datetime.date(2025, 6, 2), 'end_date': datetime.date(2025, 6, 18), 'status': 'inactive'}
+2025-07-05 00:03:21 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:03:21] "GET /api/catalogues/1 HTTP/1.1" 200 -
+2025-07-05 00:09:29 - INFO - werkzeug -  * Detected change in 'c:\\Users\\Hp\\OneDrive\\Desktop\\catalogue_management\\service\\catalogue_service.py', reloading
+2025-07-05 00:09:29 - INFO - werkzeug -  * Restarting with stat
+2025-07-05 00:09:29 - WARNING - werkzeug -  * Debugger is active!
+2025-07-05 00:09:29 - INFO - werkzeug -  * Debugger PIN: 211-066-367
+2025-07-05 00:10:00 - INFO - werkzeug -  * Detected change in 'c:\\Users\\Hp\\OneDrive\\Desktop\\catalogue_management\\service\\catalogue_service.py', reloading
+2025-07-05 00:10:00 - INFO - werkzeug -  * Restarting with stat
+2025-07-05 00:10:00 - WARNING - werkzeug -  * Debugger is active!
+2025-07-05 00:10:00 - INFO - werkzeug -  * Debugger PIN: 211-066-367
+2025-07-05 00:10:09 - INFO - werkzeug -  * Detected change in 'c:\\Users\\Hp\\OneDrive\\Desktop\\catalogue_management\\service\\catalogue_service.py', reloading
+2025-07-05 00:10:10 - INFO - werkzeug -  * Restarting with stat
+2025-07-05 00:10:10 - WARNING - werkzeug -  * Debugger is active!
+2025-07-05 00:10:10 - INFO - werkzeug -  * Debugger PIN: 211-066-367
+2025-07-05 00:10:19 - INFO - werkzeug -  * Detected change in 'c:\\Users\\Hp\\OneDrive\\Desktop\\catalogue_management\\service\\catalogue_service.py', reloading
+2025-07-05 00:10:19 - INFO - werkzeug -  * Restarting with stat
+2025-07-05 00:10:20 - WARNING - werkzeug -  * Debugger is active!
+2025-07-05 00:10:20 - INFO - werkzeug -  * Debugger PIN: 211-066-367
