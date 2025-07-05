@@ -96,3 +96,226 @@
 2025-07-05 00:10:19 - INFO - werkzeug -  * Restarting with stat
 2025-07-05 00:10:20 - WARNING - werkzeug -  * Debugger is active!
 2025-07-05 00:10:20 - INFO - werkzeug -  * Debugger PIN: 211-066-367
+2025-07-05 00:10:40,198 - INFO - User session active. Redirecting to dashboard.
+2025-07-05 00:10:40 - INFO - app - User session active. Redirecting to dashboard.
+2025-07-05 00:10:40 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:10:40] "GET / HTTP/1.1" 200 -
+2025-07-05 00:10:40 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:10:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-07-05 00:10:40 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:10:40] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-07-05 00:10:40,394 - INFO - Fetching all catalogues
+2025-07-05 00:10:40 - INFO - app - Fetching all catalogues
+2025-07-05 00:10:40 - INFO - util.db_connection - Database connection established successfully.
+2025-07-05 00:10:40,486 - INFO - Fetched 10 catalogues.
+2025-07-05 00:10:40 - INFO - app - Fetched 10 catalogues.
+2025-07-05 00:10:40 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:10:40] "GET /api/catalogues HTTP/1.1" 200 -
+2025-07-05 00:10:41,458 - INFO - User session active. Redirecting to dashboard.
+2025-07-05 00:10:41 - INFO - app - User session active. Redirecting to dashboard.
+2025-07-05 00:10:41 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:10:41] "GET / HTTP/1.1" 200 -
+2025-07-05 00:10:41 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:10:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-07-05 00:10:41 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:10:41] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-07-05 00:10:41,932 - INFO - Fetching all catalogues
+2025-07-05 00:10:41 - INFO - app - Fetching all catalogues
+2025-07-05 00:10:41 - INFO - util.db_connection - Database connection established successfully.
+2025-07-05 00:10:41,944 - INFO - Fetched 10 catalogues.
+2025-07-05 00:10:41 - INFO - app - Fetched 10 catalogues.
+2025-07-05 00:10:41 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:10:41] "GET /api/catalogues HTTP/1.1" 200 -
+2025-07-05 00:10:45,687 - INFO - User logged out: 1
+2025-07-05 00:10:45 - INFO - app - User logged out: 1
+2025-07-05 00:10:45 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:10:45] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-07-05 00:10:45 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:10:45] "GET /login HTTP/1.1" 200 -
+2025-07-05 00:10:45 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:10:45] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-07-05 00:10:45 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:10:45] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-07-05 00:10:45 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:10:45] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-07-05 00:10:48 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:10:48] "GET /login HTTP/1.1" 200 -
+2025-07-05 00:10:48 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:10:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-07-05 00:10:48 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:10:48] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-07-05 00:10:48 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:10:48] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-07-05 00:10:49 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:10:49] "GET /login HTTP/1.1" 200 -
+2025-07-05 00:10:49 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:10:49] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-07-05 00:10:49 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:10:49] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-07-05 00:10:49 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:10:49] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-07-05 00:10:51 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:10:51] "GET /login HTTP/1.1" 200 -
+2025-07-05 00:10:51 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:10:51] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-07-05 00:10:51 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:10:51] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-07-05 00:10:51 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:10:51] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-07-05 00:10:58,364 - INFO - Login attempt for user: don_shijil
+2025-07-05 00:10:58 - INFO - app - Login attempt for user: don_shijil
+2025-07-05 00:10:58,375 - INFO - Database connection established for login.
+2025-07-05 00:10:58 - INFO - app - Database connection established for login.
+2025-07-05 00:10:58,378 - WARNING - Invalid login credentials for user: don_shijil
+2025-07-05 00:10:58 - WARNING - app - Invalid login credentials for user: don_shijil
+2025-07-05 00:10:58 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:10:58] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-07-05 00:11:14,893 - INFO - Login attempt for user: don_shijil
+2025-07-05 00:11:14 - INFO - app - Login attempt for user: don_shijil
+2025-07-05 00:11:14,903 - INFO - Database connection established for login.
+2025-07-05 00:11:14 - INFO - app - Database connection established for login.
+2025-07-05 00:11:14,907 - INFO - Login successful for user: don_shijil
+2025-07-05 00:11:14 - INFO - app - Login successful for user: don_shijil
+2025-07-05 00:11:14 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:11:14] "POST /login HTTP/1.1" 200 -
+2025-07-05 00:11:15,946 - INFO - User session active. Redirecting to dashboard.
+2025-07-05 00:11:15 - INFO - app - User session active. Redirecting to dashboard.
+2025-07-05 00:11:15 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:11:15] "GET / HTTP/1.1" 200 -
+2025-07-05 00:11:15 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:11:15] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-07-05 00:11:15 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:11:15] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-07-05 00:11:16,018 - INFO - Fetching all catalogues
+2025-07-05 00:11:16 - INFO - app - Fetching all catalogues
+2025-07-05 00:11:16 - INFO - util.db_connection - Database connection established successfully.
+2025-07-05 00:11:16,033 - INFO - Fetched 10 catalogues.
+2025-07-05 00:11:16 - INFO - app - Fetched 10 catalogues.
+2025-07-05 00:11:16 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:11:16] "GET /api/catalogues HTTP/1.1" 200 -
+2025-07-05 00:11:34,035 - INFO - Create Catalogue Request: {'name': 'winter sale', 'description': 'kakskakskaksa', 'start_date': '2025-07-01', 'end_date': '2025-07-17', 'status': 'active'}
+2025-07-05 00:11:34 - INFO - app - Create Catalogue Request: {'name': 'winter sale', 'description': 'kakskakskaksa', 'start_date': '2025-07-01', 'end_date': '2025-07-17', 'status': 'active'}
+2025-07-05 00:11:34 - INFO - util.db_connection - Database connection established successfully.
+2025-07-05 00:11:34,091 - INFO - Catalogue created successfully.
+2025-07-05 00:11:34 - INFO - app - Catalogue created successfully.
+2025-07-05 00:11:34 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:11:34] "[35m[1mPOST /api/catalogues HTTP/1.1[0m" 201 -
+2025-07-05 00:11:34,100 - INFO - Fetching all catalogues
+2025-07-05 00:11:34 - INFO - app - Fetching all catalogues
+2025-07-05 00:11:34 - INFO - util.db_connection - Database connection established successfully.
+2025-07-05 00:11:34,111 - INFO - Fetched 11 catalogues.
+2025-07-05 00:11:34 - INFO - app - Fetched 11 catalogues.
+2025-07-05 00:11:34 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:11:34] "GET /api/catalogues HTTP/1.1" 200 -
+2025-07-05 00:11:37,959 - INFO - Fetching catalogue by ID: 73
+2025-07-05 00:11:37 - INFO - app - Fetching catalogue by ID: 73
+2025-07-05 00:11:37 - INFO - util.db_connection - Database connection established successfully.
+2025-07-05 00:11:38,001 - INFO - Catalogue found: {'catalogue_id': 73, 'catalogue_name': 'winter sale', 'catalogue_description': 'kakskakskaksa', 'start_date': datetime.date(2025, 7, 1), 'end_date': datetime.date(2025, 7, 17), 'status': 'active'}
+2025-07-05 00:11:38 - INFO - app - Catalogue found: {'catalogue_id': 73, 'catalogue_name': 'winter sale', 'catalogue_description': 'kakskakskaksa', 'start_date': datetime.date(2025, 7, 1), 'end_date': datetime.date(2025, 7, 17), 'status': 'active'}
+2025-07-05 00:11:38 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:11:38] "GET /api/catalogues/73 HTTP/1.1" 200 -
+2025-07-05 00:11:43,591 - INFO - Update request for ID 73: {'name': 'winter sale', 'description': 'kaksuuuuuuuu', 'start_date': '2025-07-01', 'end_date': '2025-07-17', 'status': 'active'}
+2025-07-05 00:11:43 - INFO - app - Update request for ID 73: {'name': 'winter sale', 'description': 'kaksuuuuuuuu', 'start_date': '2025-07-01', 'end_date': '2025-07-17', 'status': 'active'}
+2025-07-05 00:11:43 - INFO - util.db_connection - Database connection established successfully.
+2025-07-05 00:11:43,636 - INFO - Catalogue ID 73 updated successfully.
+2025-07-05 00:11:43 - INFO - app - Catalogue ID 73 updated successfully.
+2025-07-05 00:11:43 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:11:43] "PUT /api/catalogues/73 HTTP/1.1" 200 -
+2025-07-05 00:11:43,645 - INFO - Fetching all catalogues
+2025-07-05 00:11:43 - INFO - app - Fetching all catalogues
+2025-07-05 00:11:43 - INFO - util.db_connection - Database connection established successfully.
+2025-07-05 00:11:43,658 - INFO - Fetched 11 catalogues.
+2025-07-05 00:11:43 - INFO - app - Fetched 11 catalogues.
+2025-07-05 00:11:43 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:11:43] "GET /api/catalogues HTTP/1.1" 200 -
+2025-07-05 00:11:45,638 - INFO - Delete request for catalogue ID: 73
+2025-07-05 00:11:45 - INFO - app - Delete request for catalogue ID: 73
+2025-07-05 00:11:45 - INFO - util.db_connection - Database connection established successfully.
+2025-07-05 00:11:45,694 - INFO - Catalogue ID 73 deleted successfully.
+2025-07-05 00:11:45 - INFO - app - Catalogue ID 73 deleted successfully.
+2025-07-05 00:11:45 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:11:45] "DELETE /api/catalogues/73 HTTP/1.1" 200 -
+2025-07-05 00:11:45,703 - INFO - Fetching all catalogues
+2025-07-05 00:11:45 - INFO - app - Fetching all catalogues
+2025-07-05 00:11:45 - INFO - util.db_connection - Database connection established successfully.
+2025-07-05 00:11:45,714 - INFO - Fetched 10 catalogues.
+2025-07-05 00:11:45 - INFO - app - Fetched 10 catalogues.
+2025-07-05 00:11:45 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:11:45] "GET /api/catalogues HTTP/1.1" 200 -
+2025-07-05 00:35:43,988 - INFO - Login attempt for user: None
+2025-07-05 00:35:43 - INFO - app - Login attempt for user: None
+2025-07-05 00:35:43,989 - WARNING - Login failed: Username or password missing.
+2025-07-05 00:35:43 - WARNING - app - Login failed: Username or password missing.
+2025-07-05 00:35:43,998 - INFO - Fetching all catalogues
+2025-07-05 00:35:43 - INFO - app - Fetching all catalogues
+2025-07-05 00:35:44 - INFO - util.db_connection - Database connection established successfully.
+2025-07-05 00:35:44,102 - INFO - Fetched 10 catalogues.
+2025-07-05 00:35:44 - INFO - app - Fetched 10 catalogues.
+2025-07-05 00:38:14,372 - INFO - Login attempt for user: None
+2025-07-05 00:38:14 - INFO - app - Login attempt for user: None
+2025-07-05 00:38:14,372 - WARNING - Login failed: Username or password missing.
+2025-07-05 00:38:14 - WARNING - app - Login failed: Username or password missing.
+2025-07-05 00:38:14,375 - INFO - Login attempt for user: wrong
+2025-07-05 00:38:14 - INFO - app - Login attempt for user: wrong
+2025-07-05 00:38:14,394 - INFO - Database connection established for login.
+2025-07-05 00:38:14 - INFO - app - Database connection established for login.
+2025-07-05 00:38:14,397 - WARNING - Invalid login credentials for user: wrong
+2025-07-05 00:38:14 - WARNING - app - Invalid login credentials for user: wrong
+2025-07-05 00:38:14,400 - INFO - Login attempt for user: testuser
+2025-07-05 00:38:14 - INFO - app - Login attempt for user: testuser
+2025-07-05 00:38:14,408 - INFO - Database connection established for login.
+2025-07-05 00:38:14 - INFO - app - Database connection established for login.
+2025-07-05 00:38:14,410 - WARNING - Invalid login credentials for user: testuser
+2025-07-05 00:38:14 - WARNING - app - Invalid login credentials for user: testuser
+2025-07-05 00:38:14,413 - INFO - User logged out: None
+2025-07-05 00:38:14 - INFO - app - User logged out: None
+2025-07-05 00:38:14,417 - INFO - Fetching all catalogues
+2025-07-05 00:38:14 - INFO - app - Fetching all catalogues
+2025-07-05 00:38:14 - INFO - util.db_connection - Database connection established successfully.
+2025-07-05 00:38:14,427 - INFO - Fetched 10 catalogues.
+2025-07-05 00:38:14 - INFO - app - Fetched 10 catalogues.
+2025-07-05 00:38:14,430 - INFO - Create Catalogue Request: {}
+2025-07-05 00:38:14 - INFO - app - Create Catalogue Request: {}
+2025-07-05 00:38:14,432 - INFO - Create Catalogue Request: {'description': 'Test description', 'end_date': '2025-07-15', 'name': 'Test Catalogue', 'start_date': '2025-07-05', 'status': 'active'}
+2025-07-05 00:38:14 - INFO - app - Create Catalogue Request: {'description': 'Test description', 'end_date': '2025-07-15', 'name': 'Test Catalogue', 'start_date': '2025-07-05', 'status': 'active'}
+2025-07-05 00:38:14 - INFO - util.db_connection - Database connection established successfully.
+2025-07-05 00:38:14,453 - INFO - Catalogue created successfully.
+2025-07-05 00:38:14 - INFO - app - Catalogue created successfully.
+2025-07-05 00:38:14,458 - INFO - Fetching catalogue by ID: 999999
+2025-07-05 00:38:14 - INFO - app - Fetching catalogue by ID: 999999
+2025-07-05 00:38:14 - INFO - util.db_connection - Database connection established successfully.
+2025-07-05 00:38:14,466 - WARNING - Catalogue ID 999999 not found.
+2025-07-05 00:38:14 - WARNING - app - Catalogue ID 999999 not found.
+2025-07-05 00:38:14,470 - INFO - Update request for ID 999999: {'description': 'Updated Description', 'end_date': '2025-07-15', 'name': 'Updated Name', 'start_date': '2025-07-05', 'status': 'inactive'}
+2025-07-05 00:38:14 - INFO - app - Update request for ID 999999: {'description': 'Updated Description', 'end_date': '2025-07-15', 'name': 'Updated Name', 'start_date': '2025-07-05', 'status': 'inactive'}
+2025-07-05 00:38:14 - INFO - util.db_connection - Database connection established successfully.
+2025-07-05 00:38:14,480 - WARNING - Catalogue ID 999999 not found or unchanged.
+2025-07-05 00:38:14 - WARNING - app - Catalogue ID 999999 not found or unchanged.
+2025-07-05 00:38:14,483 - INFO - Delete request for catalogue ID: 999999
+2025-07-05 00:38:14 - INFO - app - Delete request for catalogue ID: 999999
+2025-07-05 00:38:14 - INFO - util.db_connection - Database connection established successfully.
+2025-07-05 00:38:14,493 - WARNING - Catalogue ID 999999 not found.
+2025-07-05 00:38:14 - WARNING - app - Catalogue ID 999999 not found.
+2025-07-05 00:38:35 - INFO - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-05 00:38:35 - INFO - werkzeug - [33mPress CTRL+C to quit[0m
+2025-07-05 00:38:35 - INFO - werkzeug -  * Restarting with stat
+2025-07-05 00:38:36 - WARNING - werkzeug -  * Debugger is active!
+2025-07-05 00:38:36 - INFO - werkzeug -  * Debugger PIN: 211-066-367
+2025-07-05 00:39:42,963 - INFO - User session active. Redirecting to dashboard.
+2025-07-05 00:39:42 - INFO - app - User session active. Redirecting to dashboard.
+2025-07-05 00:39:42 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:39:42] "GET / HTTP/1.1" 200 -
+2025-07-05 00:39:43 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:39:43] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-07-05 00:39:43 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:39:43] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-07-05 00:39:43,189 - INFO - Fetching all catalogues
+2025-07-05 00:39:43 - INFO - app - Fetching all catalogues
+2025-07-05 00:39:43 - INFO - util.db_connection - Database connection established successfully.
+2025-07-05 00:39:43,297 - INFO - Fetched 11 catalogues.
+2025-07-05 00:39:43 - INFO - app - Fetched 11 catalogues.
+2025-07-05 00:39:43 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:39:43] "GET /api/catalogues HTTP/1.1" 200 -
+2025-07-05 00:39:50,745 - INFO - User session active. Redirecting to dashboard.
+2025-07-05 00:39:50 - INFO - app - User session active. Redirecting to dashboard.
+2025-07-05 00:39:50 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:39:50] "GET / HTTP/1.1" 200 -
+2025-07-05 00:39:50 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:39:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-07-05 00:39:50 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:39:50] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-07-05 00:39:50,794 - INFO - Fetching all catalogues
+2025-07-05 00:39:50 - INFO - app - Fetching all catalogues
+2025-07-05 00:39:50 - INFO - util.db_connection - Database connection established successfully.
+2025-07-05 00:39:50,810 - INFO - Fetched 11 catalogues.
+2025-07-05 00:39:50 - INFO - app - Fetched 11 catalogues.
+2025-07-05 00:39:50 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:39:50] "GET /api/catalogues HTTP/1.1" 200 -
+2025-07-05 00:39:51,565 - INFO - User session active. Redirecting to dashboard.
+2025-07-05 00:39:51 - INFO - app - User session active. Redirecting to dashboard.
+2025-07-05 00:39:51 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:39:51] "GET / HTTP/1.1" 200 -
+2025-07-05 00:39:51 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:39:51] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-07-05 00:39:51 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:39:51] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-07-05 00:39:51,606 - INFO - Fetching all catalogues
+2025-07-05 00:39:51 - INFO - app - Fetching all catalogues
+2025-07-05 00:39:51 - INFO - util.db_connection - Database connection established successfully.
+2025-07-05 00:39:51,622 - INFO - Fetched 11 catalogues.
+2025-07-05 00:39:51 - INFO - app - Fetched 11 catalogues.
+2025-07-05 00:39:51 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:39:51] "GET /api/catalogues HTTP/1.1" 200 -
+2025-07-05 00:39:52,190 - INFO - User session active. Redirecting to dashboard.
+2025-07-05 00:39:52 - INFO - app - User session active. Redirecting to dashboard.
+2025-07-05 00:39:52 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:39:52] "GET / HTTP/1.1" 200 -
+2025-07-05 00:39:52 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:39:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-07-05 00:39:52 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:39:52] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-07-05 00:39:52,237 - INFO - Fetching all catalogues
+2025-07-05 00:39:52 - INFO - app - Fetching all catalogues
+2025-07-05 00:39:52 - INFO - util.db_connection - Database connection established successfully.
+2025-07-05 00:39:52,254 - INFO - Fetched 11 catalogues.
+2025-07-05 00:39:52 - INFO - app - Fetched 11 catalogues.
+2025-07-05 00:39:52 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:39:52] "GET /api/catalogues HTTP/1.1" 200 -
+2025-07-05 00:39:53,582 - INFO - User logged out: 1
+2025-07-05 00:39:53 - INFO - app - User logged out: 1
+2025-07-05 00:39:53 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:39:53] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-07-05 00:39:53 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:39:53] "GET /login HTTP/1.1" 200 -
+2025-07-05 00:39:53 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:39:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-07-05 00:39:53 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:39:53] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-07-05 00:39:53 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:39:53] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-07-05 00:39:55 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:39:55] "GET /login HTTP/1.1" 200 -
+2025-07-05 00:39:55 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:39:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-07-05 00:39:55 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:39:55] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-07-05 00:39:55 - INFO - werkzeug - 127.0.0.1 - - [05/Jul/2025 00:39:55] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
