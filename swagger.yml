@@ -1,0 +1,178 @@
+swagger: "2.0"
+info:
+  title: Catalogue Management System API
+  description: API documentation for the Catalogue Management System.
+  version: "1.0.0"
+
+basePath: /api
+schemes:
+  - http
+
+paths:
+  /catalogues:
+    post:
+      tags:
+        - Catalogue
+      summary: Create a new catalogue
+      parameters:
+        - in: body
+          name: body
+          required: true
+          schema:
+            type: object
+            required:
+              - name
+              - description
+              - start_date
+              - end_date
+              - status
+            properties:
+              name:
+                type: string
+              description:
+                type: string
+              start_date:
+                type: string
+                format: date
+              end_date:
+                type: string
+                format: date
+              status:
+                type: string
+                enum: [active, inactive]
+      responses:
+        201:
+          description: Catalogue created successfully
+        400:
+          description: Invalid input
+        500:
+          description: Internal server error
+
+    get:
+      tags:
+        - Catalogue
+      summary: Get all catalogues
+      responses:
+        200:
+          description: List of all catalogues
+        500:
+          description: Internal server error
+
+  /catalogues/{catalogue_id}:
+    get:
+      tags:
+        - Catalogue
+      summary: Get a catalogue by ID
+      parameters:
+        - name: catalogue_id
+          in: path
+          required: true
+          type: integer
+      responses:
+        200:
+          description: Catalogue found
+        400:
+          description: Invalid ID
+        404:
+          description: Not found
+        500:
+          description: Internal server error
+
+    put:
+      tags:
+        - Catalogue
+      summary: Update a catalogue by ID
+      parameters:
+        - name: catalogue_id
+          in: path
+          required: true
+          type: integer
+        - in: body
+          name: body
+          required: true
+          schema:
+            type: object
+            required:
+              - name
+              - description
+              - start_date
+              - end_date
+              - status
+            properties:
+              name:
+                type: string
+              description:
+                type: string
+              start_date:
+                type: string
+                format: date
+              end_date:
+                type: string
+                format: date
+              status:
+                type: string
+                enum: [active, inactive]
+      responses:
+        200:
+          description: Updated
+        400:
+          description: Invalid input
+        404:
+          description: Not found
+        500:
+          description: Internal server error
+
+    delete:
+      tags:
+        - Catalogue
+      summary: Delete a catalogue by ID
+      parameters:
+        - name: catalogue_id
+          in: path
+          required: true
+          type: integer
+      responses:
+        200:
+          description: Deleted
+        400:
+          description: Invalid ID
+        404:
+          description: Not found
+        500:
+          description: Internal server error
+
+  /login:
+    post:
+      tags:
+        - Auth
+      summary: User login
+      parameters:
+        - in: body
+          name: body
+          required: true
+          schema:
+            type: object
+            required:
+              - username
+              - password
+            properties:
+              username:
+                type: string
+              password:
+                type: string
+      responses:
+        200:
+          description: Login successful
+        400:
+          description: Missing credentials
+        401:
+          description: Invalid credentials
+
+  /logout:
+    get:
+      tags:
+        - Auth
+      summary: User logout
+      responses:
+        302:
+          description: Redirect to login

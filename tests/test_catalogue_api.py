@@ -18,7 +18,7 @@ def test_create_catalogue_valid(client):
         "status": "active"
     }
     response = client.post("/api/catalogues", json=payload)
-    assert response.status_code in [201, 500]  # 500 if DB insert fails
+    assert response.status_code in [201, 500]  
 
 def test_get_catalogue_by_invalid_id(client):
     response = client.get("/api/catalogues/999999")

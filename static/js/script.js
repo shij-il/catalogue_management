@@ -49,7 +49,8 @@ function renderTable(data) {
       <td>${c.description}</td>
       <td>${c.start_date}</td>
       <td>${c.end_date}</td>
-      <td>${c.status}</td>
+      <td class="${c.status === 'active' ? 'status-active' : 'status-inactive'}">${c.status}</td>
+
       <td>
           <button class="btn btn-secondary tooltip" data-tooltip="Edit" onclick="editCatalogue(${c.catalogue_id})">✏️</button>
            <button class="btn btn-secondary tooltip" data-tooltip="Delete" onclick="deleteCatalogue(${c.catalogue_id})">🗑️</button>
